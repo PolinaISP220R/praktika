@@ -1,0 +1,37 @@
+body {
+    background-color: #aabbbe;
+}
+
+
+h1{
+    font-size: 28px;
+    padding-left: 50px;
+
+
+ 
+}
+
+
+.line {
+ display: flex;
+ align-items: last baseline;
+ background: #A5C3CF;
+}
+}
+.button {border-radius: 50%; background-color: #E2E8E4;}
+
+.rega {
+padding-top: 20px;
+padding-left: 45%;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    padding-left: 45%;
+}
+    
+
+

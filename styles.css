@@ -6,8 +6,6 @@ body {
 h1{
     font-size: 28px;
     padding-left: 50px;
-
-
  
 }
 
@@ -15,23 +13,41 @@ h1{
 .line {
  display: flex;
  align-items: last baseline;
- background: #A5C3CF;
+ background: #7a9caa;
+ padding-left: 15px;
 }
-}
-.button {border-radius: 50%; background-color: #E2E8E4;}
 
-.rega {
-padding-top: 20px;
-padding-left: 45%;
+.rega button {
+    border-radius: 30px;
+    background-color: #E2E8E4;
+    font-size: 14px;
+    padding: 10px;
+    width: 150px;
 }
+
 
 .block{
     display: flex;
-    align-items: center;
-    display: block;
-    margin: 0 auto;
-    padding-left: 45%;
+    background: #7a9caa;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
 }
     
+.rega{
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
+form h2 {
+    text-align: center;
+}
 
+form input{
+border-radius: 30px;
+font-size: 14px;
+padding: 10px;
+}
